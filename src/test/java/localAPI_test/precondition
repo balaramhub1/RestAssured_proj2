@@ -1,0 +1,58 @@
+All Tests in the current package "intermediate_test" are created / executed 
+after creating FAKE API server using details in the "CreateFakeRestAPI" document at the root of the project.
+And creating the db.json file with fake data as below:
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+{
+	"users": [{
+			"firstName": "Balaram",
+			"lastName": "B",
+			"subjectId": 2,
+			"id": 100
+		},
+		{
+			"firstName": "Anjaney",
+			"lastName": "Ram",
+			"subjectId": 4,
+			"id": 102
+		},
+		{
+			"firstName": "Rohit",
+			"lastName": "Bal",
+			"subjectId": 5,
+			"id": 106
+		},
+		{
+			"firstName": "Ranjan",
+			"lastName": "Kumar",
+			"subjectId": 8,
+			"id": 103
+		},
+		{
+			"firstName": "Kishore",
+			"lastName": "Biyani",
+			"subjectId": 5,
+			"id": 101
+		}
+	],
+	"subjects": [{
+			"name": "Automation",
+			"id": 5
+		},
+		{
+			"name": "Dev",
+			"id": 2
+		},
+		{
+			"name": "Security",
+			"id": 4
+		},
+		{
+			"name": "Admin",
+			"id": 8
+		}
+	]
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

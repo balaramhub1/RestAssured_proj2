@@ -1,0 +1,30 @@
+Prerequisite:
+1. Node.js - installed
+2. json-server - installed
+Download json-server from : https://github.com/typicode/json-server
+
+Install "json-server" by using below command
+
+npm install -g json-server
+
+Start "json-server" by using below command
+
+json-server --watch db.json
+
+O/P:
+  Resources
+  http://localhost:3000/posts
+  http://localhost:3000/comments
+  http://localhost:3000/profile
+
+  Home
+  http://localhost:3000
+  
+ Edit the db.json created above to have the json data as per your requirement / fake api.
+ 
+ Removed the existing data and ceated own data for testing:
+ 
+ 
+ 
+
+

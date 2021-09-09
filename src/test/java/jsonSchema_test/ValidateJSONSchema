@@ -1,0 +1,18 @@
+How to validate JSON Schema:
+
+1. Create a JSON schema
+	- navigate to json to json schema convertor.
+	- paste the response json body.
+	- get the JSON Schema.
+
+2. Add JSON Schema file in classpath.
+	- copy the JSON Schema generated in previous step.
+	- create a json file with above content and place it in "target" ->"classess" folder of the project.
+
+3. Add Maven dependency for JSON Schema Validator ( from RestAssured ).
+	- search for "json schema validator" in mvnrepository.com
+	- Add the version of schema validator matching the RestAssured library.
+
+4. Create a new funciton to validate JSON response against the schema.
+
+	
